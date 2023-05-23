@@ -48,9 +48,9 @@ Partial Class Form2
         lblHeader.ForeColor = Color.White
         lblHeader.Location = New Point(16, 30)
         lblHeader.Name = "lblHeader"
-        lblHeader.Size = New Size(368, 25)
+        lblHeader.Size = New Size(338, 25)
         lblHeader.TabIndex = 30
-        lblHeader.Text = "Responde el resultado de la suma correcta"
+        lblHeader.Text = "Responde el resultado de la operación."
         ' 
         ' Button4
         ' 

@@ -22,275 +22,368 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
-        Button5 = New Button()
-        Button6 = New Button()
-        Button7 = New Button()
-        Button8 = New Button()
-        Button9 = New Button()
-        Button10 = New Button()
-        Button11 = New Button()
-        Button12 = New Button()
-        Button13 = New Button()
-        Button14 = New Button()
-        Button15 = New Button()
-        Button16 = New Button()
-        Button17 = New Button()
-        Button18 = New Button()
-        Button19 = New Button()
-        TextBox1 = New TextBox()
+        buttonPad1 = New Button()
+        buttonPad2 = New Button()
+        buttonPad3 = New Button()
+        buttonPad4 = New Button()
+        buttonPad5 = New Button()
+        buttonPad6 = New Button()
+        buttonPad7 = New Button()
+        buttonPad8 = New Button()
+        buttonPad9 = New Button()
+        buttonPadDot = New Button()
+        buttonPad0 = New Button()
+        buttonPadAdd = New Button()
+        buttonPadRemove = New Button()
+        buttonPadDivide = New Button()
+        buttonPadMultiply = New Button()
+        buttonPadMod = New Button()
+        buttonPadPow = New Button()
+        buttonPadRoot = New Button()
+        buttonPadClear = New Button()
+        tbScreen = New TextBox()
+        btnPadEquals = New Button()
+        btnCE = New Button()
+        buttonVarA = New Button()
+        buttonKeyRes = New Button()
+        buttonVarB = New Button()
+        buttonParenthesisLeft = New Button()
+        buttonParenthesisRight = New Button()
         SuspendLayout()
         ' 
-        ' Button1
+        ' buttonPad1
         ' 
-        Button1.BackColor = Color.Black
-        Button1.ForeColor = Color.White
-        Button1.Location = New Point(12, 69)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(48, 39)
-        Button1.TabIndex = 0
-        Button1.Text = "1"
-        Button1.UseVisualStyleBackColor = False
+        buttonPad1.BackColor = Color.Black
+        buttonPad1.ForeColor = Color.White
+        buttonPad1.Location = New Point(12, 69)
+        buttonPad1.Name = "buttonPad1"
+        buttonPad1.Size = New Size(48, 39)
+        buttonPad1.TabIndex = 0
+        buttonPad1.Text = "1"
+        buttonPad1.UseVisualStyleBackColor = False
         ' 
-        ' Button2
+        ' buttonPad2
         ' 
-        Button2.BackColor = Color.Black
-        Button2.ForeColor = Color.White
-        Button2.Location = New Point(66, 69)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(48, 39)
-        Button2.TabIndex = 1
-        Button2.Text = "2"
-        Button2.UseVisualStyleBackColor = False
+        buttonPad2.BackColor = Color.Black
+        buttonPad2.ForeColor = Color.White
+        buttonPad2.Location = New Point(66, 69)
+        buttonPad2.Name = "buttonPad2"
+        buttonPad2.Size = New Size(48, 39)
+        buttonPad2.TabIndex = 1
+        buttonPad2.Text = "2"
+        buttonPad2.UseVisualStyleBackColor = False
         ' 
-        ' Button3
+        ' buttonPad3
         ' 
-        Button3.BackColor = Color.Black
-        Button3.ForeColor = Color.White
-        Button3.Location = New Point(120, 69)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(48, 39)
-        Button3.TabIndex = 2
-        Button3.Text = "3"
-        Button3.UseVisualStyleBackColor = False
+        buttonPad3.BackColor = Color.Black
+        buttonPad3.ForeColor = Color.White
+        buttonPad3.Location = New Point(120, 69)
+        buttonPad3.Name = "buttonPad3"
+        buttonPad3.Size = New Size(48, 39)
+        buttonPad3.TabIndex = 2
+        buttonPad3.Text = "3"
+        buttonPad3.UseVisualStyleBackColor = False
         ' 
-        ' Button4
+        ' buttonPad4
         ' 
-        Button4.BackColor = Color.Black
-        Button4.ForeColor = Color.White
-        Button4.Location = New Point(12, 114)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(48, 39)
-        Button4.TabIndex = 3
-        Button4.Text = "4"
-        Button4.UseVisualStyleBackColor = False
+        buttonPad4.BackColor = Color.Black
+        buttonPad4.ForeColor = Color.White
+        buttonPad4.Location = New Point(12, 114)
+        buttonPad4.Name = "buttonPad4"
+        buttonPad4.Size = New Size(48, 39)
+        buttonPad4.TabIndex = 3
+        buttonPad4.Text = "4"
+        buttonPad4.UseVisualStyleBackColor = False
         ' 
-        ' Button5
+        ' buttonPad5
         ' 
-        Button5.BackColor = Color.Black
-        Button5.ForeColor = Color.White
-        Button5.Location = New Point(66, 114)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(48, 39)
-        Button5.TabIndex = 4
-        Button5.Text = "5"
-        Button5.UseVisualStyleBackColor = False
+        buttonPad5.BackColor = Color.Black
+        buttonPad5.ForeColor = Color.White
+        buttonPad5.Location = New Point(66, 114)
+        buttonPad5.Name = "buttonPad5"
+        buttonPad5.Size = New Size(48, 39)
+        buttonPad5.TabIndex = 4
+        buttonPad5.Text = "5"
+        buttonPad5.UseVisualStyleBackColor = False
         ' 
-        ' Button6
+        ' buttonPad6
         ' 
-        Button6.BackColor = Color.Black
-        Button6.ForeColor = Color.White
-        Button6.Location = New Point(120, 114)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(48, 39)
-        Button6.TabIndex = 5
-        Button6.Text = "6"
-        Button6.UseVisualStyleBackColor = False
+        buttonPad6.BackColor = Color.Black
+        buttonPad6.ForeColor = Color.White
+        buttonPad6.Location = New Point(120, 114)
+        buttonPad6.Name = "buttonPad6"
+        buttonPad6.Size = New Size(48, 39)
+        buttonPad6.TabIndex = 5
+        buttonPad6.Text = "6"
+        buttonPad6.UseVisualStyleBackColor = False
         ' 
-        ' Button7
+        ' buttonPad7
         ' 
-        Button7.BackColor = Color.Black
-        Button7.ForeColor = Color.White
-        Button7.Location = New Point(12, 159)
-        Button7.Name = "Button7"
-        Button7.Size = New Size(48, 39)
-        Button7.TabIndex = 6
-        Button7.Text = "7"
-        Button7.UseVisualStyleBackColor = False
+        buttonPad7.BackColor = Color.Black
+        buttonPad7.ForeColor = Color.White
+        buttonPad7.Location = New Point(12, 159)
+        buttonPad7.Name = "buttonPad7"
+        buttonPad7.Size = New Size(48, 39)
+        buttonPad7.TabIndex = 6
+        buttonPad7.Text = "7"
+        buttonPad7.UseVisualStyleBackColor = False
         ' 
-        ' Button8
+        ' buttonPad8
         ' 
-        Button8.BackColor = Color.Black
-        Button8.ForeColor = Color.White
-        Button8.Location = New Point(66, 159)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(48, 39)
-        Button8.TabIndex = 7
-        Button8.Text = "8"
-        Button8.UseVisualStyleBackColor = False
+        buttonPad8.BackColor = Color.Black
+        buttonPad8.ForeColor = Color.White
+        buttonPad8.Location = New Point(66, 159)
+        buttonPad8.Name = "buttonPad8"
+        buttonPad8.Size = New Size(48, 39)
+        buttonPad8.TabIndex = 7
+        buttonPad8.Text = "8"
+        buttonPad8.UseVisualStyleBackColor = False
         ' 
-        ' Button9
+        ' buttonPad9
         ' 
-        Button9.BackColor = Color.Black
-        Button9.ForeColor = Color.White
-        Button9.Location = New Point(120, 159)
-        Button9.Name = "Button9"
-        Button9.Size = New Size(48, 39)
-        Button9.TabIndex = 8
-        Button9.Text = "9"
-        Button9.UseVisualStyleBackColor = False
+        buttonPad9.BackColor = Color.Black
+        buttonPad9.ForeColor = Color.White
+        buttonPad9.Location = New Point(120, 159)
+        buttonPad9.Name = "buttonPad9"
+        buttonPad9.Size = New Size(48, 39)
+        buttonPad9.TabIndex = 8
+        buttonPad9.Text = "9"
+        buttonPad9.UseVisualStyleBackColor = False
         ' 
-        ' Button10
+        ' buttonPadDot
         ' 
-        Button10.BackColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
-        Button10.ForeColor = Color.White
-        Button10.Location = New Point(12, 204)
-        Button10.Name = "Button10"
-        Button10.Size = New Size(48, 39)
-        Button10.TabIndex = 9
-        Button10.Text = "."
-        Button10.UseVisualStyleBackColor = False
+        buttonPadDot.BackColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        buttonPadDot.ForeColor = Color.White
+        buttonPadDot.Location = New Point(12, 204)
+        buttonPadDot.Name = "buttonPadDot"
+        buttonPadDot.Size = New Size(48, 39)
+        buttonPadDot.TabIndex = 9
+        buttonPadDot.Text = "."
+        buttonPadDot.UseVisualStyleBackColor = False
         ' 
-        ' Button11
+        ' buttonPad0
         ' 
-        Button11.BackColor = Color.Black
-        Button11.ForeColor = Color.White
-        Button11.Location = New Point(66, 204)
-        Button11.Name = "Button11"
-        Button11.Size = New Size(102, 39)
-        Button11.TabIndex = 10
-        Button11.Text = "0"
-        Button11.UseVisualStyleBackColor = False
+        buttonPad0.BackColor = Color.Black
+        buttonPad0.ForeColor = Color.White
+        buttonPad0.Location = New Point(66, 204)
+        buttonPad0.Name = "buttonPad0"
+        buttonPad0.Size = New Size(102, 39)
+        buttonPad0.TabIndex = 10
+        buttonPad0.Text = "0"
+        buttonPad0.UseVisualStyleBackColor = False
         ' 
-        ' Button12
+        ' buttonPadAdd
         ' 
-        Button12.BackColor = Color.Navy
-        Button12.ForeColor = Color.White
-        Button12.Location = New Point(174, 69)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(102, 39)
-        Button12.TabIndex = 11
-        Button12.Text = "+"
-        Button12.UseVisualStyleBackColor = False
+        buttonPadAdd.BackColor = Color.Navy
+        buttonPadAdd.ForeColor = Color.White
+        buttonPadAdd.Location = New Point(174, 69)
+        buttonPadAdd.Name = "buttonPadAdd"
+        buttonPadAdd.Size = New Size(102, 39)
+        buttonPadAdd.TabIndex = 11
+        buttonPadAdd.Text = "+"
+        buttonPadAdd.UseVisualStyleBackColor = False
         ' 
-        ' Button13
+        ' buttonPadRemove
         ' 
-        Button13.BackColor = Color.Navy
-        Button13.ForeColor = Color.White
-        Button13.Location = New Point(174, 114)
-        Button13.Name = "Button13"
-        Button13.Size = New Size(102, 39)
-        Button13.TabIndex = 12
-        Button13.Text = "-"
-        Button13.UseVisualStyleBackColor = False
+        buttonPadRemove.BackColor = Color.Navy
+        buttonPadRemove.ForeColor = Color.White
+        buttonPadRemove.Location = New Point(174, 114)
+        buttonPadRemove.Name = "buttonPadRemove"
+        buttonPadRemove.Size = New Size(102, 39)
+        buttonPadRemove.TabIndex = 12
+        buttonPadRemove.Text = "-"
+        buttonPadRemove.UseVisualStyleBackColor = False
         ' 
-        ' Button14
+        ' buttonPadDivide
         ' 
-        Button14.BackColor = Color.Navy
-        Button14.ForeColor = Color.White
-        Button14.Location = New Point(174, 159)
-        Button14.Name = "Button14"
-        Button14.Size = New Size(102, 39)
-        Button14.TabIndex = 13
-        Button14.Text = "/"
-        Button14.UseVisualStyleBackColor = False
+        buttonPadDivide.BackColor = Color.Navy
+        buttonPadDivide.ForeColor = Color.White
+        buttonPadDivide.Location = New Point(174, 159)
+        buttonPadDivide.Name = "buttonPadDivide"
+        buttonPadDivide.Size = New Size(102, 39)
+        buttonPadDivide.TabIndex = 13
+        buttonPadDivide.Text = "/"
+        buttonPadDivide.UseVisualStyleBackColor = False
         ' 
-        ' Button15
+        ' buttonPadMultiply
         ' 
-        Button15.BackColor = Color.Navy
-        Button15.ForeColor = Color.White
-        Button15.Location = New Point(174, 205)
-        Button15.Name = "Button15"
-        Button15.Size = New Size(102, 39)
-        Button15.TabIndex = 14
-        Button15.Text = "*"
-        Button15.UseVisualStyleBackColor = False
+        buttonPadMultiply.BackColor = Color.Navy
+        buttonPadMultiply.ForeColor = Color.White
+        buttonPadMultiply.Location = New Point(174, 205)
+        buttonPadMultiply.Name = "buttonPadMultiply"
+        buttonPadMultiply.Size = New Size(102, 39)
+        buttonPadMultiply.TabIndex = 14
+        buttonPadMultiply.Text = "*"
+        buttonPadMultiply.UseVisualStyleBackColor = False
         ' 
-        ' Button16
+        ' buttonPadMod
         ' 
-        Button16.BackColor = Color.Navy
-        Button16.ForeColor = Color.White
-        Button16.Location = New Point(282, 69)
-        Button16.Name = "Button16"
-        Button16.Size = New Size(102, 39)
-        Button16.TabIndex = 15
-        Button16.Text = "Mod"
-        Button16.UseVisualStyleBackColor = False
+        buttonPadMod.BackColor = Color.Navy
+        buttonPadMod.ForeColor = Color.White
+        buttonPadMod.Location = New Point(282, 69)
+        buttonPadMod.Name = "buttonPadMod"
+        buttonPadMod.Size = New Size(102, 39)
+        buttonPadMod.TabIndex = 15
+        buttonPadMod.Text = "Mod"
+        buttonPadMod.UseVisualStyleBackColor = False
         ' 
-        ' Button17
+        ' buttonPadPow
         ' 
-        Button17.BackColor = Color.Navy
-        Button17.ForeColor = Color.White
-        Button17.Location = New Point(282, 114)
-        Button17.Name = "Button17"
-        Button17.Size = New Size(102, 39)
-        Button17.TabIndex = 16
-        Button17.Text = "x^n"
-        Button17.UseVisualStyleBackColor = False
+        buttonPadPow.BackColor = Color.Navy
+        buttonPadPow.ForeColor = Color.White
+        buttonPadPow.Location = New Point(282, 114)
+        buttonPadPow.Name = "buttonPadPow"
+        buttonPadPow.Size = New Size(102, 39)
+        buttonPadPow.TabIndex = 16
+        buttonPadPow.Text = "x^n"
+        buttonPadPow.UseVisualStyleBackColor = False
         ' 
-        ' Button18
+        ' buttonPadRoot
         ' 
-        Button18.BackColor = Color.Navy
-        Button18.ForeColor = Color.White
-        Button18.Location = New Point(282, 159)
-        Button18.Name = "Button18"
-        Button18.Size = New Size(102, 39)
-        Button18.TabIndex = 17
-        Button18.Text = "√x"
-        Button18.UseVisualStyleBackColor = False
+        buttonPadRoot.BackColor = Color.Navy
+        buttonPadRoot.ForeColor = Color.White
+        buttonPadRoot.Location = New Point(282, 159)
+        buttonPadRoot.Name = "buttonPadRoot"
+        buttonPadRoot.Size = New Size(102, 39)
+        buttonPadRoot.TabIndex = 17
+        buttonPadRoot.Text = "√x"
+        buttonPadRoot.UseVisualStyleBackColor = False
         ' 
-        ' Button19
+        ' buttonPadClear
         ' 
-        Button19.BackColor = Color.FromArgb(CByte(192), CByte(64), CByte(0))
-        Button19.ForeColor = Color.White
-        Button19.Location = New Point(282, 205)
-        Button19.Name = "Button19"
-        Button19.Size = New Size(102, 39)
-        Button19.TabIndex = 18
-        Button19.Text = "Clear"
-        Button19.UseVisualStyleBackColor = False
+        buttonPadClear.BackColor = Color.FromArgb(CByte(192), CByte(64), CByte(0))
+        buttonPadClear.ForeColor = Color.White
+        buttonPadClear.Location = New Point(282, 205)
+        buttonPadClear.Name = "buttonPadClear"
+        buttonPadClear.Size = New Size(102, 39)
+        buttonPadClear.TabIndex = 18
+        buttonPadClear.Text = "Clear"
+        buttonPadClear.UseVisualStyleBackColor = False
         ' 
-        ' TextBox1
+        ' tbScreen
         ' 
-        TextBox1.BackColor = SystemColors.MenuText
-        TextBox1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point)
-        TextBox1.ForeColor = SystemColors.Window
-        TextBox1.Location = New Point(12, 16)
-        TextBox1.Name = "TextBox1"
-        TextBox1.ReadOnly = True
-        TextBox1.Size = New Size(372, 39)
-        TextBox1.TabIndex = 19
-        TextBox1.TextAlign = HorizontalAlignment.Right
+        tbScreen.BackColor = SystemColors.MenuText
+        tbScreen.Font = New Font("Agency FB", 24F, FontStyle.Bold, GraphicsUnit.Point)
+        tbScreen.ForeColor = Color.Lime
+        tbScreen.Location = New Point(12, 16)
+        tbScreen.Name = "tbScreen"
+        tbScreen.ReadOnly = True
+        tbScreen.Size = New Size(372, 46)
+        tbScreen.TabIndex = 19
+        tbScreen.TextAlign = HorizontalAlignment.Right
+        ' 
+        ' btnPadEquals
+        ' 
+        btnPadEquals.BackColor = Color.Maroon
+        btnPadEquals.ForeColor = Color.White
+        btnPadEquals.Location = New Point(174, 292)
+        btnPadEquals.Name = "btnPadEquals"
+        btnPadEquals.Size = New Size(210, 39)
+        btnPadEquals.TabIndex = 20
+        btnPadEquals.Text = "="
+        btnPadEquals.UseVisualStyleBackColor = False
+        ' 
+        ' btnCE
+        ' 
+        btnCE.BackColor = Color.Maroon
+        btnCE.ForeColor = Color.White
+        btnCE.Location = New Point(12, 292)
+        btnCE.Name = "btnCE"
+        btnCE.Size = New Size(156, 39)
+        btnCE.TabIndex = 21
+        btnCE.Text = "CE"
+        btnCE.UseVisualStyleBackColor = False
+        ' 
+        ' buttonVarA
+        ' 
+        buttonVarA.BackColor = Color.Navy
+        buttonVarA.ForeColor = Color.White
+        buttonVarA.Location = New Point(174, 250)
+        buttonVarA.Name = "buttonVarA"
+        buttonVarA.Size = New Size(102, 39)
+        buttonVarA.TabIndex = 24
+        buttonVarA.Text = "a"
+        buttonVarA.UseVisualStyleBackColor = False
+        ' 
+        ' buttonKeyRes
+        ' 
+        buttonKeyRes.BackColor = Color.Black
+        buttonKeyRes.ForeColor = Color.White
+        buttonKeyRes.Location = New Point(12, 251)
+        buttonKeyRes.Name = "buttonKeyRes"
+        buttonKeyRes.Size = New Size(48, 36)
+        buttonKeyRes.TabIndex = 25
+        buttonKeyRes.Text = "Res"
+        buttonKeyRes.UseVisualStyleBackColor = False
+        ' 
+        ' buttonVarB
+        ' 
+        buttonVarB.BackColor = Color.Navy
+        buttonVarB.ForeColor = Color.White
+        buttonVarB.Location = New Point(282, 250)
+        buttonVarB.Name = "buttonVarB"
+        buttonVarB.Size = New Size(102, 39)
+        buttonVarB.TabIndex = 26
+        buttonVarB.Text = "b"
+        buttonVarB.UseVisualStyleBackColor = False
+        ' 
+        ' buttonParenthesisLeft
+        ' 
+        buttonParenthesisLeft.BackColor = Color.Black
+        buttonParenthesisLeft.Enabled = False
+        buttonParenthesisLeft.ForeColor = Color.White
+        buttonParenthesisLeft.Location = New Point(66, 251)
+        buttonParenthesisLeft.Name = "buttonParenthesisLeft"
+        buttonParenthesisLeft.Size = New Size(48, 36)
+        buttonParenthesisLeft.TabIndex = 27
+        buttonParenthesisLeft.Text = "("
+        buttonParenthesisLeft.UseVisualStyleBackColor = False
+        ' 
+        ' buttonParenthesisRight
+        ' 
+        buttonParenthesisRight.BackColor = Color.Black
+        buttonParenthesisRight.Enabled = False
+        buttonParenthesisRight.ForeColor = Color.White
+        buttonParenthesisRight.Location = New Point(120, 251)
+        buttonParenthesisRight.Name = "buttonParenthesisRight"
+        buttonParenthesisRight.Size = New Size(48, 36)
+        buttonParenthesisRight.TabIndex = 28
+        buttonParenthesisRight.Text = ")"
+        buttonParenthesisRight.UseVisualStyleBackColor = False
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        ClientSize = New Size(398, 256)
-        Controls.Add(TextBox1)
-        Controls.Add(Button19)
-        Controls.Add(Button18)
-        Controls.Add(Button17)
-        Controls.Add(Button16)
-        Controls.Add(Button15)
-        Controls.Add(Button14)
-        Controls.Add(Button13)
-        Controls.Add(Button12)
-        Controls.Add(Button11)
-        Controls.Add(Button10)
-        Controls.Add(Button9)
-        Controls.Add(Button8)
-        Controls.Add(Button7)
-        Controls.Add(Button6)
-        Controls.Add(Button5)
-        Controls.Add(Button4)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        BackColor = Color.DimGray
+        ClientSize = New Size(398, 343)
+        Controls.Add(buttonParenthesisRight)
+        Controls.Add(buttonParenthesisLeft)
+        Controls.Add(buttonVarB)
+        Controls.Add(buttonKeyRes)
+        Controls.Add(buttonVarA)
+        Controls.Add(btnCE)
+        Controls.Add(btnPadEquals)
+        Controls.Add(tbScreen)
+        Controls.Add(buttonPadClear)
+        Controls.Add(buttonPadRoot)
+        Controls.Add(buttonPadPow)
+        Controls.Add(buttonPadMod)
+        Controls.Add(buttonPadMultiply)
+        Controls.Add(buttonPadDivide)
+        Controls.Add(buttonPadRemove)
+        Controls.Add(buttonPadAdd)
+        Controls.Add(buttonPad0)
+        Controls.Add(buttonPadDot)
+        Controls.Add(buttonPad9)
+        Controls.Add(buttonPad8)
+        Controls.Add(buttonPad7)
+        Controls.Add(buttonPad6)
+        Controls.Add(buttonPad5)
+        Controls.Add(buttonPad4)
+        Controls.Add(buttonPad3)
+        Controls.Add(buttonPad2)
+        Controls.Add(buttonPad1)
         FormBorderStyle = FormBorderStyle.FixedSingle
         MaximizeBox = False
         MinimizeBox = False
@@ -301,24 +394,31 @@ Partial Class Form1
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents buttonPad1 As Button
+    Friend WithEvents buttonPad2 As Button
+    Friend WithEvents buttonPad3 As Button
+    Friend WithEvents buttonPad4 As Button
+    Friend WithEvents buttonPad5 As Button
+    Friend WithEvents buttonPad6 As Button
+    Friend WithEvents buttonPad7 As Button
+    Friend WithEvents buttonPad8 As Button
+    Friend WithEvents buttonPad9 As Button
+    Friend WithEvents buttonPadDot As Button
+    Friend WithEvents buttonPad0 As Button
+    Friend WithEvents buttonPadAdd As Button
+    Friend WithEvents buttonPadRemove As Button
+    Friend WithEvents buttonPadDivide As Button
+    Friend WithEvents buttonPadMultiply As Button
+    Friend WithEvents buttonPadMod As Button
+    Friend WithEvents buttonPadPow As Button
+    Friend WithEvents buttonPadRoot As Button
+    Friend WithEvents buttonPadClear As Button
+    Friend WithEvents tbScreen As TextBox
+    Friend WithEvents btnPadEquals As Button
+    Friend WithEvents btnCE As Button
+    Friend WithEvents buttonVarA As Button
+    Friend WithEvents buttonKeyRes As Button
+    Friend WithEvents buttonVarB As Button
+    Friend WithEvents buttonParenthesisLeft As Button
+    Friend WithEvents buttonParenthesisRight As Button
 End Class

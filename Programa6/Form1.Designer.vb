@@ -82,7 +82,7 @@ Partial Class Form1
         Button3.Name = "Button3"
         Button3.Size = New Size(273, 49)
         Button3.TabIndex = 24
-        Button3.Text = "Division"
+        Button3.Text = "División"
         Button3.UseVisualStyleBackColor = False
         ' 
         ' Button4
@@ -93,7 +93,7 @@ Partial Class Form1
         Button4.Name = "Button4"
         Button4.Size = New Size(273, 49)
         Button4.TabIndex = 25
-        Button4.Text = "Multiplicacion"
+        Button4.Text = "Multiplicación"
         Button4.UseVisualStyleBackColor = False
         ' 
         ' Button5
@@ -203,7 +203,7 @@ Partial Class Form1
         ' 
         cbDificultad.DropDownStyle = ComboBoxStyle.DropDownList
         cbDificultad.FormattingEnabled = True
-        cbDificultad.Items.AddRange(New Object() {"Facil", "Medio", "Dificil"})
+        cbDificultad.Items.AddRange(New Object() {"Fácil", "Medio", "Dificil"})
         cbDificultad.Location = New Point(303, 325)
         cbDificultad.Name = "cbDificultad"
         cbDificultad.Size = New Size(235, 23)
@@ -247,7 +247,7 @@ Partial Class Form1
         MinimizeBox = False
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Problema 6 - Juego de operaciones aritméticas"
+        Text = " "
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -259,14 +259,14 @@ Partial Class Form1
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
-    Friend WithEvents tbIntentosOmitidos As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents tbIntentosFallidos As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents tbIntentosExitosos As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents cbTiempo As ComboBox
     Friend WithEvents cbDificultad As ComboBox
     Friend WithEvents Label5 As Label
+    Public WithEvents tbIntentosOmitidos As TextBox
+    Public WithEvents tbIntentosFallidos As TextBox
+    Public WithEvents tbIntentosExitosos As TextBox
 End Class
